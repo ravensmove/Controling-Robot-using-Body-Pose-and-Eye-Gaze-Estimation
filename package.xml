@@ -1,0 +1,23 @@
+<package>
+  <name>control_robot</name>
+  <version>1.0</version>
+  <description>
+    This package provides controlling robot with human body poses and eye gaze.
+  </description>
+  <maintainer email="viveksdchauhan@gmail.com">Vivek Chauhan</maintainer>
+  <url type="website">https://github.com/ravensmove/controlling-robot-using-body-poses-and-eye-gaze</url>
+  <author>Vivek Chauhan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
